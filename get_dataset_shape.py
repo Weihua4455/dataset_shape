@@ -19,10 +19,10 @@ import statistics
 import matplotlib.patches as mpatches
 
 # pull in the data
-filename = input("Type your filename, including the extension (.csv etc)")
+filename = input("Type your filename, including the extension (.csv etc): ")
 data_file = open(filename, "rU")
 
-column_name = input("Type which column you want to plot")
+column_name = input("Type which column you want to plot: ")
 
 # convert to DictReader
 data_reader = csv.DictReader(data_file)
