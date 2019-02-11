@@ -2,7 +2,7 @@
 
 This is a simple script that reads in an csv and plots a histgram about a column that has numbers.
 
-It will also plot mean and median and 1QR and 2 QR and all the good stuff.
+It will also plot mean and median and 1Q and 2Q and all the good stuff.
 
 ## This is how it works:
 
